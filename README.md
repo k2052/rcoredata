@@ -64,7 +64,7 @@ end
 
 ## Misc
 
-Name method (CoreData mom doesn't have name field)
+Name method. The CoreData mom for account doesn't have a name field, only first_name and last_name.
 
 ```ruby   
 class Account < RCoreData::Model 
@@ -78,7 +78,12 @@ class Account < RCoreData::Model
     end           
   end   
 end
-```
+```     
+
+# Examples
+
+- Simple Post/Blog app: Provides a list of Posts and CRUD; and that is all. 
+  [https://github.com/bookworm/rcoredata_demo_blog](https://github.com/bookworm/rcoredata_demo_blog)
 
 # License
 
